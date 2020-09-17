@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Helen Tran | Software Engineer</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+
+			<nav class="nav">
+				<!-- BEM naming convention -->
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#resume" class="nav__link">Resume</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About Me</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">Skills</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#work" class="nav__link">My Work</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Let's Chat</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Helen Tran</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">
+				software engineer
+			</p>
+			<img
+				src="img/headshot-1.jpg"
+				class="intro__img"
+				alt="a headshot of Helen Tran smiling"
+			/>
+		</section>
+
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">
+				Developer based out of Boston
+			</p>
+
+			<div class="about-me__body">
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam nemo
+					numquam, tenetur nulla eaque nesciunt debitis quod, facilis asperiores
+					eveniet ut! Necessitatibus possimus aut sed, doloribus sapiente vero.
+					Ipsa, eaque.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+					inventore eligendi omnis numquam eos eveniet, quae ullam similique aut
+					quaerat incidunt rem, adipisci sapiente error ipsa at pariatur?
+					Consectetur, sapiente.
+				</p>
+			</div>
+
+			<img src="img/headshot-2.jpg" class="about-me__img" alt="" />
+		</section>
+
+		<!-- My Resume -->
+		<section class="my-resume" id="resume">
+			<!-- <h2 class="section__title section__title--resume">My Resume</h2> -->
+			<a href="#" class="btn">View My Resume</a>
+		</section>
+
+		<!-- Skills -->
+		<section class="skills" id="skills"></section>
+
+		<!-- My Work -->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">
+				A selection of my range of work
+			</p>
+			<p class="section__subtitle"></p>
+
+			<div class="portfolio">
+				<!-- Portfolio Item 1 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-1.jpg" alt="" class="portfolio__img" />
+				</a>
+
+				<!-- Portfolio Item 2 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-2.jpg" alt="" class="portfolio__img" />
+				</a>
+
+				<!-- Portfolio Item 3 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-3.jpg" alt="" class="portfolio__img" />
+				</a>
+
+				<!-- Portfolio Item 4 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-4.jpg" alt="" class="portfolio__img" />
+				</a>
+
+				<!-- Portfolio Item 5 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-5.jpg" alt="" class="portfolio__img" />
+				</a>
+
+				<!-- Portfolio Item 6 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/portfolio-6.jpg" alt="" class="portfolio__img" />
+				</a>
+			</div>
+		</section>
+
+		<section class="contact-me" id="contact"></section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="mailto:helentran.dev@gmail.com" class="footer__link"
+				>helentran.dev@gmail.com</a
+			>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a href="#" class="social-list__link">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a href="#" class="social-list__link">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<script src="js/index.js"></script>
+	</body>
+</html>
